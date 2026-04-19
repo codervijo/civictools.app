@@ -1,0 +1,29 @@
+{
+  "tools": [
+    {
+      "slug": "permit",
+      "path": "/permit",
+      "name": "Permit Cost Tool",
+      "shortName": "Permit Costs",
+      "chip": "Permit Cost + Process Tool",
+      "headline": "Estimate Permit Costs Instantly",
+      "subtext": "Get permit fees, steps, and timelines for your project in seconds.",
+      "icon": "ConstructionIcon"
+    },
+    {
+      "slug": "property-tax",
+      "path": "/property-tax",
+      "name": "Property Tax Estimator",
+      "shortName": "Property Tax",
+      "chip": "Property Tax Estimator",
+      "headline": "Estimate Your Property Tax",
+      "subtext": "Get an instant estimate of annual and monthly property tax for your home.",
+      "icon": "ReceiptLongIcon"
+    }
+  ],
+  "comingSoon": [
+    { "icon": "DirectionsCarIcon", "title": "DMV Appointment Finder", "desc": "Find the soonest DMV slot near you." },
+    { "icon": "HomeWorkIcon",      "title": "Zoning Lookup",          "desc": "Check what you can build on any parcel." },
+    { "icon": "MoreHorizIcon",     "title": "More tools coming",      "desc": "We're building the simplest civic toolkit." }
+  ]
+}

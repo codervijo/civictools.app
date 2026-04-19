@@ -6,17 +6,20 @@ import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import ReceiptLongIcon from "@mui/icons-material/ReceiptLong";
 import ConstructionIcon from "@mui/icons-material/Construction";
 import { TOOLS } from "../tools/registry";
+import toolsData from "../data/tools.json";
 
-const ICONS = {
-  permit: <ConstructionIcon />,
-  "property-tax": <ReceiptLongIcon />,
+const ICON_MAP = {
+  ConstructionIcon: <ConstructionIcon />,
+  ReceiptLongIcon: <ReceiptLongIcon />,
+  DirectionsCarIcon: <DirectionsCarIcon />,
+  HomeWorkIcon: <HomeWorkIcon />,
+  MoreHorizIcon: <MoreHorizIcon />,
 };
 
-const COMING_SOON = [
-  { icon: <DirectionsCarIcon />, title: "DMV Appointment Finder", desc: "Find the soonest DMV slot near you." },
-  { icon: <HomeWorkIcon />,      title: "Zoning Lookup",          desc: "Check what you can build on any parcel." },
-  { icon: <MoreHorizIcon />,     title: "More tools coming",      desc: "We're building the simplest civic toolkit." },
-];
+const COMING_SOON = toolsData.comingSoon.map((t) => ({ ...t, icon: ICON_MAP[t.icon] }));
+
+// resolve icon for active tools from JSON icon field
+const ICONS = Object.fromEntries(TOOLS.map((t) => [t.slug, ICON_MAP[t.icon]]));
 
 export default function ToolsPreviewSection({ currentSlug }) {
   const otherTools = TOOLS.filter((t) => t.slug !== currentSlug);

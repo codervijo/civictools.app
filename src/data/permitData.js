@@ -1,44 +1,11 @@
-export const CITIES = [
-  "San Francisco, CA",
-  "Los Angeles, CA",
-  "San Diego, CA",
-  "San Jose, CA",
-  "Sacramento, CA",
-  "Oakland, CA",
-  "Long Beach, CA",
-  "Fresno, CA",
-];
+import data from "./permitData.json";
 
-export const PROJECT_TYPES = [
-  { value: "deck", label: "Deck" },
-  { value: "adu", label: "ADU (Accessory Dwelling Unit)" },
-  { value: "remodel", label: "Interior Remodel" },
-  { value: "addition", label: "Room Addition" },
-  { value: "roof", label: "Re-Roofing" },
-];
-
-const TYPE_CONFIG = {
-  deck:     { base: 180, rate: 0.011, other: 65,  steps: ["Submit plans online", "Plan check (structural)", "Pay fees", "Inspections during build", "Final inspection"], timeline: "7–14 days" },
-  adu:      { base: 850, rate: 0.018, other: 420, steps: ["Pre-application meeting", "Submit architectural + structural plans", "Plan check & corrections", "Pay permit fees", "Framing, electrical, plumbing inspections", "Final + Certificate of Occupancy"], timeline: "30–60 days" },
-  remodel:  { base: 320, rate: 0.013, other: 110, steps: ["Submit plans", "Plan check", "Pay fees", "Rough inspections (electrical/plumbing)", "Final inspection"], timeline: "14–28 days" },
-  addition: { base: 600, rate: 0.016, other: 240, steps: ["Submit plans", "Zoning review", "Plan check", "Pay fees", "Foundation + framing inspections", "Final inspection"], timeline: "21–45 days" },
-  roof:     { base: 140, rate: 0.009, other: 40,  steps: ["Submit application", "Pay fees", "Mid-roof inspection", "Final inspection"], timeline: "3–7 days" },
-};
-
-const CITY_MULTIPLIER = {
-  "San Francisco, CA": 1.35,
-  "Los Angeles, CA": 1.15,
-  "San Diego, CA": 1.05,
-  "San Jose, CA": 1.20,
-  "Sacramento, CA": 0.95,
-  "Oakland, CA": 1.10,
-  "Long Beach, CA": 1.00,
-  "Fresno, CA": 0.85,
-};
+export const CITIES = data.cities;
+export const PROJECT_TYPES = data.projectTypes;
 
 export function estimatePermit({ city, projectType, projectValue }) {
-  const cfg = TYPE_CONFIG[projectType];
-  const mult = CITY_MULTIPLIER[city] ?? 1;
+  const cfg = data.typeConfig[projectType];
+  const mult = data.cityMultiplier[city] ?? 1;
   const value = Number(projectValue) || 0;
 
   const baseFee = Math.round(cfg.base * mult);
