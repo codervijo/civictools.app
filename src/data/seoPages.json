@@ -1,0 +1,227 @@
+[
+  {
+    "slug": "/permit-cost-san-jose-deck",
+    "cityKey": "SanJose",
+    "cityLabel": "San Jose, CA",
+    "projectType": "deck",
+    "projectLabel": "Deck",
+    "defaultValuation": 18000,
+    "title": "Deck Permit Cost San Jose (2026 Estimate)",
+    "meta": "San Jose deck permit fees start around $400–$600 for a $18k project. See the exact steps, current timeline, and what drives costs up.",
+    "sections": {
+      "averageCost": "A typical deck permit in San Jose runs $400–$600 for a project valued around $15,000–$20,000. The city charges a $220 base fee plus 1.2% of the declared project value. Larger or hillside decks can push this to $900+.",
+      "steps": "Submit your plans through San Jose's ePermits portal with a site plan and structural drawings. Plan check takes 7–14 business days for standard residential decks. After paying fees and receiving your permit, expect a framing inspection mid-build and a final inspection at completion.",
+      "timeline": "Most deck permits in San Jose are issued 2–3 weeks after a complete submission. Incomplete applications or decks over 30 inches above grade requiring full structural review can stretch this to 4–6 weeks."
+    }
+  },
+  {
+    "slug": "/permit-cost-san-jose-adu",
+    "cityKey": "SanJose",
+    "cityLabel": "San Jose, CA",
+    "projectType": "adu",
+    "projectLabel": "ADU",
+    "defaultValuation": 160000,
+    "title": "ADU Permit Cost San Jose (2026 Estimate)",
+    "meta": "San Jose ADU permits cost $2,800–$4,000+ depending on size and scope. See current fees, required steps, and how long approval takes in 2026.",
+    "sections": {
+      "averageCost": "An ADU permit in San Jose typically costs $2,800–$4,200 for a 600–800 sq ft unit, including plan check and inspection fees. The base permit fee is $715, plus 1.3% of project value. ADUs under 800 sq ft qualify for a 50% plan check fee reduction under state law.",
+      "steps": "Submit a full plan set — site plan, floor plan, elevations, and Title 24 energy calculations. First-time submissions often come back with corrections; plan for at least one round. After paying fees and getting your permit, inspections cover foundation, framing, rough MEP, insulation, drywall, and final.",
+      "timeline": "ADU permits in San Jose take 45–90 days from first submission to permit issuance. Using San Jose's Pre-Approved ADU Plans Program can cut plan check to under 2 weeks. Construction inspections are scheduled separately as work progresses."
+    }
+  },
+  {
+    "slug": "/permit-cost-san-jose-remodel",
+    "cityKey": "SanJose",
+    "cityLabel": "San Jose, CA",
+    "projectType": "remodel",
+    "projectLabel": "Interior Remodel",
+    "defaultValuation": 40000,
+    "title": "Remodel Permit Cost San Jose (2026 Estimate)",
+    "meta": "San Jose interior remodel permits typically cost $575–$800. Get current fee estimates, required steps, and typical turnaround times for 2026.",
+    "sections": {
+      "averageCost": "A kitchen or bathroom remodel permit in San Jose costs roughly $575–$800 for a $40,000 project. The city charges a $175 base fee plus 1.0% of valuation. Projects that only involve cosmetic changes don't need a permit at all.",
+      "steps": "Submit your permit application with a detailed scope of work — what's being changed, what trades are involved, and whether any walls are moving. Plan check takes 5–10 days for standard residential remodels. Rough-in inspections cover electrical and plumbing; a final inspection closes out the permit.",
+      "timeline": "Most interior remodel permits in San Jose are issued within 7–14 days of submission. Simple scope with no structural changes is the fastest path. Adding structural work or an electrical panel upgrade will require additional review time."
+    }
+  },
+  {
+    "slug": "/permit-cost-fresno-deck",
+    "cityKey": "Fresno",
+    "cityLabel": "Fresno, CA",
+    "projectType": "deck",
+    "projectLabel": "Deck",
+    "defaultValuation": 18000,
+    "title": "Deck Permit Cost Fresno (2026 Estimate)",
+    "meta": "Fresno deck permits are among the most affordable in California — typically $300–$450 for an $18k project. See current fees and processing times.",
+    "sections": {
+      "averageCost": "Fresno deck permits cost $300–$450 for a standard $15,000–$20,000 deck. The city charges a $140 base fee plus 1.0% of project value. Fresno's fees run 20–30% lower than Bay Area cities for comparable projects.",
+      "steps": "Apply through Fresno's CityView online portal or in person at the Development Services office. Plan check takes 5–10 business days. After paying fees, you'll need a framing inspection and a final inspection to close out.",
+      "timeline": "Deck permits in Fresno typically take 7–14 days from submission to issuance. Projects over 200 sq ft attached to the structure require stamped engineering plans, which can add 1–2 weeks if you don't have them ready."
+    }
+  },
+  {
+    "slug": "/permit-cost-fresno-adu",
+    "cityKey": "Fresno",
+    "cityLabel": "Fresno, CA",
+    "projectType": "adu",
+    "projectLabel": "ADU",
+    "defaultValuation": 160000,
+    "title": "ADU Permit Cost Fresno (2026 Estimate)",
+    "meta": "Fresno ADU permits cost $2,200–$3,200 — lower than most CA cities. See exact fee estimates, required documents, and approval timelines for 2026.",
+    "sections": {
+      "averageCost": "An ADU permit in Fresno runs $2,200–$3,200 for a 600–800 sq ft unit. Base permit fee is $460, plus 1.1% of project value. Impact fees may apply for ADUs over 750 sq ft, adding $1,000–$3,000 depending on location.",
+      "steps": "Submit your permit application with a site plan and floor plans through Fresno's Development Services. Plan check takes 10–21 days. After fee payment, inspections cover foundation, framing, rough mechanical systems, and a final walkthrough for Certificate of Occupancy.",
+      "timeline": "Fresno ADU permits typically take 21–45 days for units under 1,000 sq ft. The city has a streamlined review process for smaller ADUs. Factor in additional time if impact fee calculations are needed."
+    }
+  },
+  {
+    "slug": "/permit-cost-fresno-remodel",
+    "cityKey": "Fresno",
+    "cityLabel": "Fresno, CA",
+    "projectType": "remodel",
+    "projectLabel": "Interior Remodel",
+    "defaultValuation": 40000,
+    "title": "Remodel Permit Cost Fresno (2026 Estimate)",
+    "meta": "Interior remodel permits in Fresno typically cost $475–$600. Fast turnaround and low fees make Fresno one of the easiest CA cities for home projects.",
+    "sections": {
+      "averageCost": "A standard interior remodel permit in Fresno costs $475–$600 for a $40,000 project. The $115 base fee plus 0.9% of valuation keeps total permit costs low. Gas line or electrical panel work requires a separate trade permit at additional cost.",
+      "steps": "Submit your permit application with a scope of work at Fresno Building and Safety. Most residential remodels go through plan check in 3–7 days. One inspection at project completion is typically all that's required for straightforward interior work.",
+      "timeline": "Fresno remodel permits are typically issued in 5–10 days. The city's low volume compared to Bay Area cities means faster turnaround. Pulling a trade permit for electrical or plumbing adds 1–3 days."
+    }
+  },
+  {
+    "slug": "/permit-cost-sacramento-deck",
+    "cityKey": "Sacramento",
+    "cityLabel": "Sacramento, CA",
+    "projectType": "deck",
+    "projectLabel": "Deck",
+    "defaultValuation": 18000,
+    "title": "Deck Permit Cost Sacramento (2026 Estimate)",
+    "meta": "Sacramento deck permit fees run $340–$480 for an $18k project. See current city fees, required inspections, and how long permits take in 2026.",
+    "sections": {
+      "averageCost": "Deck permits in Sacramento typically cost $340–$480 for a $15,000–$20,000 project. Sacramento charges a $160 base fee plus 1.1% of valuation. Decks within 3 feet of a property line trigger a zoning review that can add to cost.",
+      "steps": "Submit your application via Sacramento's SacConnect portal or in person. Plan check runs 7–14 days for standard residential decks. Footing and framing inspections happen mid-construction; a final inspection closes the permit.",
+      "timeline": "Deck permits in Sacramento are typically issued 10–18 days after complete submission. Properties in fire hazard zones (common in Sacramento's foothill-adjacent areas) may require additional review time."
+    }
+  },
+  {
+    "slug": "/permit-cost-sacramento-adu",
+    "cityKey": "Sacramento",
+    "cityLabel": "Sacramento, CA",
+    "projectType": "adu",
+    "projectLabel": "ADU",
+    "defaultValuation": 160000,
+    "title": "ADU Permit Cost Sacramento (2026 Estimate)",
+    "meta": "Sacramento ADU permits cost $2,500–$3,500 with one of California's fastest approval processes. See 2026 fee estimates, steps, and timeline.",
+    "sections": {
+      "averageCost": "An ADU permit in Sacramento costs $2,500–$3,500 for a standard unit. Base fee is $530 plus 1.2% of project value. Sacramento does not currently charge school impact fees for ADUs, which saves $1,500–$3,000 compared to LA or Bay Area.",
+      "steps": "Submit a full plan set including site plan, floor plan, and energy calculations. Plan check takes 14–28 days, with a correction round common on first submission. Sacramento's Pre-Approved ADU design library lets qualifying projects skip plan check entirely — the fastest path available.",
+      "timeline": "Standard ADU permits in Sacramento take 30–60 days. Using a pre-approved design cuts this to 10–15 days for plan review. Construction inspections are scheduled throughout the build and typically have 1–2 day lead times."
+    }
+  },
+  {
+    "slug": "/permit-cost-sacramento-remodel",
+    "cityKey": "Sacramento",
+    "cityLabel": "Sacramento, CA",
+    "projectType": "remodel",
+    "projectLabel": "Interior Remodel",
+    "defaultValuation": 40000,
+    "title": "Remodel Permit Cost Sacramento (2026 Estimate)",
+    "meta": "Sacramento remodel permits often qualify for same-day issuance. Fees run $490–$620 for a $40k project. See current costs and steps for 2026.",
+    "sections": {
+      "averageCost": "Interior remodel permits in Sacramento cost $490–$620 for a $40,000 project, based on a $130 base fee plus 0.9% of valuation. Simple kitchen and bath remodels frequently qualify for over-the-counter same-day permits.",
+      "steps": "Submit your permit application with a clear scope of work. Simple projects get over-the-counter review at the permit counter — no wait. Complex work involving structural changes goes to plan check (5–10 days). A final inspection is required at project completion.",
+      "timeline": "Same-day permit issuance is common for standard remodels in Sacramento. Structural scope adds 5–12 days. Sacramento is one of the more contractor-friendly California cities for residential permits."
+    }
+  },
+  {
+    "slug": "/permit-cost-oakland-deck",
+    "cityKey": "Oakland",
+    "cityLabel": "Oakland, CA",
+    "projectType": "deck",
+    "projectLabel": "Deck",
+    "defaultValuation": 18000,
+    "title": "Deck Permit Cost Oakland (2026 Estimate)",
+    "meta": "Oakland deck permit fees run $390–$570 for an $18k project. Hillside properties face extra steps. See current fees and timelines for 2026.",
+    "sections": {
+      "averageCost": "A deck permit in Oakland costs $390–$570 for a $15,000–$20,000 project. Oakland charges a $195 base fee plus 1.2% of project value. Hillside or fire hazard zone properties will see higher costs due to additional review requirements.",
+      "steps": "Submit your application through Oakland's Accela Citizen Access portal. Plan check by the Building Services Division takes 7–14 days for flat-area properties. Hillside properties require fire and sometimes geotechnical review, adding steps. Expect framing, footing, and final inspections.",
+      "timeline": "Oakland deck permits take 10–21 days for flat-area properties. Hillside properties in fire severity zones (a large portion of Oakland's hills) can take 30–45 days due to additional agency review."
+    }
+  },
+  {
+    "slug": "/permit-cost-oakland-adu",
+    "cityKey": "Oakland",
+    "cityLabel": "Oakland, CA",
+    "projectType": "adu",
+    "projectLabel": "ADU",
+    "defaultValuation": 160000,
+    "title": "ADU Permit Cost Oakland (2026 Estimate)",
+    "meta": "Oakland ADU permits cost $2,700–$3,900 with a fast-track option for units under 800 sq ft. See 2026 fees, steps, and approval timeline.",
+    "sections": {
+      "averageCost": "An ADU permit in Oakland costs $2,700–$3,900 for a 600–800 sq ft unit. The base fee is $640 plus 1.3% of project value. Oakland's fast-track program for ADUs under 800 sq ft reduces both cost and time compared to full plan check.",
+      "steps": "Submit your full plan set through Oakland's Permit Center. Planning and building plan check run concurrently and take 21–45 days. After fee payment and permit issuance, inspections cover foundation, framing, rough MEP, insulation, and final sign-off for Certificate of Occupancy.",
+      "timeline": "Standard ADU permits in Oakland take 45–90 days. The fast-track program for units under 800 sq ft cuts this to 20–35 days. Some hillside parcels require geotechnical review, which can add 2–4 weeks regardless of ADU size."
+    }
+  },
+  {
+    "slug": "/permit-cost-oakland-remodel",
+    "cityKey": "Oakland",
+    "cityLabel": "Oakland, CA",
+    "projectType": "remodel",
+    "projectLabel": "Interior Remodel",
+    "defaultValuation": 40000,
+    "title": "Remodel Permit Cost Oakland (2026 Estimate)",
+    "meta": "Oakland remodel permits typically cost $550–$700 for a $40k project. Minor remodels may qualify for expedited review. See current 2026 fees.",
+    "sections": {
+      "averageCost": "An interior remodel permit in Oakland costs $550–$700 for a $40,000 project — $150 base fee plus 1.0% of valuation. Remodels under $10,000 in declared value may qualify for expedited review at reduced cost.",
+      "steps": "Submit your permit application with plans through Oakland's Accela portal. Over-the-counter review is available for straightforward scope; plan check takes 7–14 days for anything involving structural or significant MEP work. Rough and final inspections are required.",
+      "timeline": "Oakland remodel permits are typically issued in 7–14 days. Oakland's permit processing has improved since 2022. Earthquake retrofit work, if combined, is tracked under a separate permit and has its own timeline."
+    }
+  },
+  {
+    "slug": "/permit-cost-los-angeles-deck",
+    "cityKey": "LosAngeles",
+    "cityLabel": "Los Angeles, CA",
+    "projectType": "deck",
+    "projectLabel": "Deck",
+    "defaultValuation": 18000,
+    "title": "Deck Permit Cost Los Angeles (2026 Estimate)",
+    "meta": "LA deck permits run $520–$780 for an $18k project. LADBS fees, seismic zone rules, and hillside requirements affect cost. See 2026 estimates.",
+    "sections": {
+      "averageCost": "A deck permit in Los Angeles costs $520–$780 for a $15,000–$20,000 project. LADBS charges a $275 base fee plus 1.4% of project value. Hillside properties in seismic or fire zones can add $500–$1,500 in additional review fees.",
+      "steps": "Submit through LADBS's ePlanLA portal or at your local district office. Standard plan check takes 10–21 days; expedited service is available for an extra fee and cuts review time roughly in half. After permit issuance, inspections are required at key construction phases and at final completion.",
+      "timeline": "Deck permits in Los Angeles take 14–30 days under standard processing. Hillside properties in Zone A or B require geotechnical sign-off, pushing timelines to 30–45 days. Expedited plan check is the fastest option for flat-area properties."
+    }
+  },
+  {
+    "slug": "/permit-cost-los-angeles-adu",
+    "cityKey": "LosAngeles",
+    "cityLabel": "Los Angeles, CA",
+    "projectType": "adu",
+    "projectLabel": "ADU",
+    "defaultValuation": 160000,
+    "title": "ADU Permit Cost Los Angeles (2026 Estimate)",
+    "meta": "LA ADU permits cost $2,900–$5,000+ depending on size and location. School impact fees add more. See 2026 fee breakdown, steps, and timeline.",
+    "sections": {
+      "averageCost": "An ADU permit in Los Angeles costs $2,900–$5,000 for a 600–800 sq ft unit. Base permit fee is $760 plus 1.4% of project value. School district impact fees add another $3–$4 per square foot — roughly $1,800–$3,200 on top of permit fees for most LA ADUs.",
+      "steps": "Start with a ZIMAS check to confirm ADU eligibility for your parcel. Submit plans via ePlanLA — site plan, floor plan, elevations, and Title 24 energy calc required. Standard plan check takes 21–60 days; using LA's Standard Plan Program for pre-approved ADU designs can bypass plan check entirely. Inspections cover all major construction phases.",
+      "timeline": "Standard ADU permits in LA take 45–90 days. LA's Standard Plan Program dramatically reduces this — pre-approved designs can be permitted in 2–3 weeks. Hillside parcels and properties in Very High Fire Hazard Severity Zones add review time regardless of approach."
+    }
+  },
+  {
+    "slug": "/permit-cost-los-angeles-remodel",
+    "cityKey": "LosAngeles",
+    "cityLabel": "Los Angeles, CA",
+    "projectType": "remodel",
+    "projectLabel": "Interior Remodel",
+    "defaultValuation": 40000,
+    "title": "Remodel Permit Cost Los Angeles (2026 Estimate)",
+    "meta": "LA remodel permits run $660–$880 for a $40k project. LADBS OTC review speeds up simple scopes. See current 2026 fees and what to expect.",
+    "sections": {
+      "averageCost": "An interior remodel permit in Los Angeles costs $660–$880 for a $40,000 project — $220 base fee plus 1.1% of valuation. Cosmetic-only remodels without structural or MEP changes don't require a permit. Adding a load-bearing wall removal adds engineering plan costs on top.",
+      "steps": "Submit your permit application via ePlanLA or at your local LADBS district office. Simple scope qualifies for over-the-counter review (same day or next day). Work involving structural elements or panel upgrades goes to plan check (7–14 days). Rough-in and final inspections are required regardless of scope.",
+      "timeline": "Simple remodel permits in LA can be issued same-day at a district office. Plan check scope takes 10–21 days. LADBS has been expanding OTC (over-the-counter) eligibility — check with your district office before assuming plan check is required."
+    }
+  }
+]

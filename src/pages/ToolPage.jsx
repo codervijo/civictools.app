@@ -6,6 +6,7 @@ import Hero from "../components/Hero";
 import ResultsCard from "../components/ResultsCard";
 import ToolsPreviewSection from "../components/ToolsPreviewSection";
 import { getToolBySlug } from "../tools/registry";
+import useSeoMeta from "../hooks/useSeoMeta";
 
 export default function ToolPage() {
   const params = useParams();
@@ -24,6 +25,8 @@ export default function ToolPage() {
       resultsRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   }, [result]);
+
+  useSeoMeta({ title: tool?.pageTitle, description: tool?.meta });
 
   if (!tool) return <Navigate to="/" replace />;
 

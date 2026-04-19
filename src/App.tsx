@@ -7,7 +7,9 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import theme from "./theme.js";
 import Index from "./pages/Index.jsx";
 import ToolPage from "./pages/ToolPage.jsx";
+import SeoPermitPage from "./pages/SeoPermitPage.jsx";
 import NotFound from "./pages/NotFound.tsx";
+import seoPages from "./data/seoPages.json";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +28,10 @@ const App = () => (
             <Route path="/property-tax" element={<ToolPage />} />
             {/* Generic tool route by slug */}
             <Route path="/tools/:slug" element={<ToolPage />} />
+            {/* SEO permit cost pages */}
+            {seoPages.map((p) => (
+              <Route key={p.slug} path={p.slug} element={<SeoPermitPage />} />
+            ))}
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

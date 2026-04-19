@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   Card, CardContent, Box, TextField, MenuItem, Button,
   InputAdornment,
@@ -34,11 +34,19 @@ function buildPermitResult(estimate) {
   };
 }
 
-export default function PermitForm({ onResult }) {
-  const [city, setCity] = useState("");
-  const [projectType, setProjectType] = useState("");
-  const [projectValue, setProjectValue] = useState("");
+export default function PermitForm({ onResult, initialCity = "", initialType = "", initialValue = "" }) {
+  const [city, setCity] = useState(initialCity);
+  const [projectType, setProjectType] = useState(initialType);
+  const [projectValue, setProjectValue] = useState(initialValue ? String(initialValue) : "");
   const [submitting, setSubmitting] = useState(false);
+
+  // Auto-submit when all initial values are provided
+  useEffect(() => {
+    if (initialCity && initialType && initialValue) {
+      const estimate = estimatePermit({ city: initialCity, projectType: initialType, projectValue: initialValue });
+      onResult(buildPermitResult(estimate));
+    }
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const valid = city && projectType && Number(projectValue) > 0;
 
@@ -46,7 +54,6 @@ export default function PermitForm({ onResult }) {
     e.preventDefault();
     if (!valid) return;
     setSubmitting(true);
-    // Simulate near-instant compute
     setTimeout(() => {
       const estimate = estimatePermit({ city, projectType, projectValue });
       onResult(buildPermitResult(estimate));

@@ -1,0 +1,221 @@
+{
+  "SanJose": {
+    "deck": {
+      "base_fee": 220,
+      "rate": 0.012,
+      "steps": [
+        "Submit application via San Jose ePermits portal",
+        "Structural plan review by Building Inspection Division (7–14 days)",
+        "Pay fees based on valuation",
+        "Permit issued — post on job site",
+        "Framing and footing inspections",
+        "Final inspection and sign-off"
+      ],
+      "timeline": "10–21 days",
+      "notes": "Decks over 30 inches above grade require full structural review. San Jose uses a valuation-based fee table — base $220 plus ~1.2% of project cost."
+    },
+    "adu": {
+      "base_fee": 715,
+      "rate": 0.013,
+      "steps": [
+        "Submit site plan, floor plan, elevations, and Title 24 energy calc",
+        "Plan check (21–35 days; corrections common on first submission)",
+        "Pay permit fees",
+        "Permit issued",
+        "Inspections: foundation, framing, electrical rough, plumbing rough, insulation, drywall, final",
+        "Certificate of Occupancy"
+      ],
+      "timeline": "45–90 days",
+      "notes": "ADUs under 800 sq ft get a 50% plan check fee reduction per California law. San Jose's Pre-Approved ADU Plans Program can cut plan check time significantly."
+    },
+    "remodel": {
+      "base_fee": 175,
+      "rate": 0.010,
+      "steps": [
+        "Submit permit application with scope of work",
+        "Plan check (5–10 days for standard kitchen/bath remodels)",
+        "Pay fees",
+        "Permit issued",
+        "Rough-in inspections (electrical, plumbing if applicable)",
+        "Final inspection"
+      ],
+      "timeline": "7–14 days",
+      "notes": "Cosmetic-only work does not require a permit. Any electrical panel upgrade, gas line change, or structural wall removal does."
+    }
+  },
+  "Fresno": {
+    "deck": {
+      "base_fee": 140,
+      "rate": 0.010,
+      "steps": [
+        "Submit application at Fresno Development Services or via CityView portal",
+        "Plan check (5–10 days)",
+        "Pay fees",
+        "Permit issued",
+        "Framing inspection",
+        "Final inspection"
+      ],
+      "timeline": "7–14 days",
+      "notes": "Fresno fees are among the lower end in California. Decks over 200 sq ft attached to the home require stamped engineering plans."
+    },
+    "adu": {
+      "base_fee": 460,
+      "rate": 0.011,
+      "steps": [
+        "Submit permit application with site plan and floor plans",
+        "Plan check (10–21 days)",
+        "Pay fees",
+        "Permit issued",
+        "Foundation, framing, rough mechanical, and final inspections",
+        "Certificate of Occupancy"
+      ],
+      "timeline": "21–45 days",
+      "notes": "Fresno has streamlined ADU review for units under 1,000 sq ft. Impact fees may apply for units over 750 sq ft."
+    },
+    "remodel": {
+      "base_fee": 115,
+      "rate": 0.009,
+      "steps": [
+        "Submit permit application with scope of work",
+        "Plan check (3–7 days)",
+        "Pay fees",
+        "Permit issued",
+        "Inspection at completion"
+      ],
+      "timeline": "5–10 days",
+      "notes": "Most residential remodel permits process within a week in Fresno. Gas or electrical panel upgrades require separate trade permits."
+    }
+  },
+  "Sacramento": {
+    "deck": {
+      "base_fee": 160,
+      "rate": 0.011,
+      "steps": [
+        "Submit application via SacConnect portal or in person",
+        "Plan check (7–14 days)",
+        "Pay permit fees",
+        "Permit issued",
+        "Footing and framing inspections",
+        "Final inspection"
+      ],
+      "timeline": "10–18 days",
+      "notes": "Decks within 3 feet of a property line require a zoning review. Fire hazard zone properties may face additional review."
+    },
+    "adu": {
+      "base_fee": 530,
+      "rate": 0.012,
+      "steps": [
+        "Submit site plan, floor plan, and energy calculations",
+        "Plan check (14–28 days)",
+        "Corrections and resubmission if needed",
+        "Pay permit fees",
+        "Permit issued",
+        "All required inspections",
+        "Certificate of Occupancy"
+      ],
+      "timeline": "30–60 days",
+      "notes": "Sacramento offers a pre-approved ADU design library that can bypass plan check entirely for qualifying units — fastest path to permit issuance."
+    },
+    "remodel": {
+      "base_fee": 130,
+      "rate": 0.009,
+      "steps": [
+        "Submit permit application with project description",
+        "Over-the-counter review for simple projects (same day)",
+        "Plan check for complex work (5–10 days)",
+        "Pay fees",
+        "Permit issued",
+        "Final inspection"
+      ],
+      "timeline": "5–12 days",
+      "notes": "Simple kitchen and bath remodels often qualify for over-the-counter same-day permits in Sacramento. Structural changes require plan check."
+    }
+  },
+  "Oakland": {
+    "deck": {
+      "base_fee": 195,
+      "rate": 0.012,
+      "steps": [
+        "Submit application via Oakland's Accela Citizen Access portal",
+        "Plan check by Building Services Division (7–14 days)",
+        "Pay fees",
+        "Permit issued",
+        "Framing and footing inspections",
+        "Final inspection"
+      ],
+      "timeline": "10–21 days",
+      "notes": "Hillside properties face additional fire and geotechnical review. Flat-area decks move faster through plan check."
+    },
+    "adu": {
+      "base_fee": 640,
+      "rate": 0.013,
+      "steps": [
+        "Submit permit application with full plan set",
+        "Planning and building plan check (21–45 days)",
+        "Pay fees",
+        "Permit issued",
+        "Inspections: foundation, framing, MEP rough, insulation, final",
+        "Certificate of Occupancy"
+      ],
+      "timeline": "45–90 days",
+      "notes": "Oakland has a fast-track program for ADUs under 800 sq ft. Some areas require additional fire sprinkler review."
+    },
+    "remodel": {
+      "base_fee": 150,
+      "rate": 0.010,
+      "steps": [
+        "Submit permit application with plans",
+        "Plan check (7–14 days; over-the-counter for simple work)",
+        "Pay fees",
+        "Permit issued",
+        "Required rough and final inspections"
+      ],
+      "timeline": "7–14 days",
+      "notes": "Minor remodels under $10,000 valuation may qualify for expedited review. Earthquake retrofit work is tracked separately."
+    }
+  },
+  "LosAngeles": {
+    "deck": {
+      "base_fee": 275,
+      "rate": 0.014,
+      "steps": [
+        "Submit application via LADBS ePlanLA portal or at a district office",
+        "Plan check (10–21 days; expedited service available for a fee)",
+        "Pay permit fees",
+        "Permit issued",
+        "Required inspections during construction",
+        "Final inspection sign-off"
+      ],
+      "timeline": "14–30 days",
+      "notes": "Hillside properties in Zone A or B require geotechnical review. LADBS expedited plan check halves review time for an additional fee."
+    },
+    "adu": {
+      "base_fee": 760,
+      "rate": 0.014,
+      "steps": [
+        "Check zoning eligibility on ZIMAS",
+        "Submit plans via ePlanLA — site plan, floor plan, elevations, Title 24",
+        "Plan check (21–60 days)",
+        "Pay permit fees",
+        "Permit issued",
+        "All required inspections",
+        "Certificate of Occupancy"
+      ],
+      "timeline": "45–90 days",
+      "notes": "LA's Standard Plan Program for ADUs bypasses plan check for pre-approved designs. School impact fees apply in most LA areas — budget $3–4/sq ft extra."
+    },
+    "remodel": {
+      "base_fee": 220,
+      "rate": 0.011,
+      "steps": [
+        "Submit permit application via ePlanLA or in person at a district office",
+        "Plan check (7–14 days; OTC available for simple scope)",
+        "Pay fees",
+        "Permit issued",
+        "Rough-in and final inspections"
+      ],
+      "timeline": "10–21 days",
+      "notes": "Structural changes to load-bearing walls require stamped engineering plans. Cosmetic kitchen remodels without MEP changes often qualify for over-the-counter permits."
+    }
+  }
+}

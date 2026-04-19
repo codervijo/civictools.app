@@ -8,7 +8,9 @@
       "chip": "Permit Cost + Process Tool",
       "headline": "Estimate Permit Costs Instantly",
       "subtext": "Get permit fees, steps, and timelines for your project in seconds.",
-      "icon": "ConstructionIcon"
+      "icon": "ConstructionIcon",
+      "pageTitle": "Permit Cost Estimator — CivicTools",
+      "meta": "Instant permit fee estimates for decks, ADUs, and remodels in California cities. See required steps and approval timelines before you start."
     },
     {
       "slug": "property-tax",
@@ -18,7 +20,9 @@
       "chip": "Property Tax Estimator",
       "headline": "Estimate Your Property Tax",
       "subtext": "Get an instant estimate of annual and monthly property tax for your home.",
-      "icon": "ReceiptLongIcon"
+      "icon": "ReceiptLongIcon",
+      "pageTitle": "Property Tax Estimator — CivicTools",
+      "meta": "Estimate annual and monthly California property tax instantly. Based on current county rates for San Jose, Los Angeles, Oakland, Sacramento, and more."
     }
   ],
   "comingSoon": [
