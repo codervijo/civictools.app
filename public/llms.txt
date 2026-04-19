@@ -1,0 +1,41 @@
+# CivicTools
+
+> Simple, free tools for navigating California public data — permits, property tax, and more.
+
+CivicTools is a web platform of fast, actionable tools built on publicly available government data. No sign-up required. Every tool produces a result in under 5 seconds.
+
+## Tools
+
+- [Permit Cost Estimator](https://civictools.app/permit): Estimates building permit fees, required steps, and approval timelines for residential projects in California cities. Supports decks, ADUs, interior remodels, room additions, and re-roofing.
+- [Property Tax Estimator](https://civictools.app/property-tax): Estimates annual and monthly California property taxes based on current county effective rates.
+
+## City-Specific Permit Pages
+
+Pre-computed permit cost estimates for specific city + project type combinations:
+
+- [San Jose Deck Permit](https://civictools.app/permit-cost-san-jose-deck)
+- [San Jose ADU Permit](https://civictools.app/permit-cost-san-jose-adu)
+- [San Jose Remodel Permit](https://civictools.app/permit-cost-san-jose-remodel)
+- [Fresno Deck Permit](https://civictools.app/permit-cost-fresno-deck)
+- [Fresno ADU Permit](https://civictools.app/permit-cost-fresno-adu)
+- [Fresno Remodel Permit](https://civictools.app/permit-cost-fresno-remodel)
+- [Sacramento Deck Permit](https://civictools.app/permit-cost-sacramento-deck)
+- [Sacramento ADU Permit](https://civictools.app/permit-cost-sacramento-adu)
+- [Sacramento Remodel Permit](https://civictools.app/permit-cost-sacramento-remodel)
+- [Oakland Deck Permit](https://civictools.app/permit-cost-oakland-deck)
+- [Oakland ADU Permit](https://civictools.app/permit-cost-oakland-adu)
+- [Oakland Remodel Permit](https://civictools.app/permit-cost-oakland-remodel)
+- [Los Angeles Deck Permit](https://civictools.app/permit-cost-los-angeles-deck)
+- [Los Angeles ADU Permit](https://civictools.app/permit-cost-los-angeles-adu)
+- [Los Angeles Remodel Permit](https://civictools.app/permit-cost-los-angeles-remodel)
+
+## Data Sources and Accuracy
+
+All estimates are derived from publicly available California building department fee schedules and municipal building codes. Fee calculations use a base permit fee plus a percentage of declared project valuation, with city-specific multipliers.
+
+These are estimates only — not official city guidance. Actual fees may differ based on project scope, zoning, and fee schedule updates. Always confirm with the local building department before starting work.
+
+## Optional
+
+- [Sitemap](https://civictools.app/sitemap.xml)
+- [Robots](https://civictools.app/robots.txt)

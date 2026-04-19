@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0f172a"/>
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="8" height="630" fill="#0f766e"/>
+
+  <!-- Logo mark -->
+  <rect x="80" y="220" width="72" height="72" rx="16" fill="#0f766e"/>
+  <polygon points="92,258 116,236 140,258" fill="white" opacity="0.95"/>
+  <rect x="92" y="258" width="10" height="20" rx="2" fill="white" opacity="0.95"/>
+  <rect x="111" y="258" width="10" height="20" rx="2" fill="white" opacity="0.95"/>
+  <rect x="130" y="258" width="10" height="20" rx="2" fill="white" opacity="0.95"/>
+  <rect x="88" y="278" width="56" height="7" rx="2" fill="white" opacity="0.95"/>
+
+  <!-- CivicTools wordmark -->
+  <text x="172" y="272" font-family="Inter, Helvetica, Arial, sans-serif" font-size="52" font-weight="800" fill="white" letter-spacing="-1">CivicTools</text>
+
+  <!-- Tagline -->
+  <text x="80" y="340" font-family="Inter, Helvetica, Arial, sans-serif" font-size="28" font-weight="400" fill="#94a3b8">Simple tools for public data.</text>
+
+  <!-- Divider -->
+  <rect x="80" y="375" width="1040" height="1" fill="#1e293b"/>
+
+  <!-- Feature pills -->
+  <rect x="80" y="400" width="220" height="48" rx="24" fill="#0f766e" opacity="0.2"/>
+  <text x="190" y="430" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#2dd4bf">Permit Costs</text>
+
+  <rect x="320" y="400" width="240" height="48" rx="24" fill="#0f766e" opacity="0.2"/>
+  <text x="440" y="430" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#2dd4bf">Property Tax</text>
+
+  <rect x="580" y="400" width="220" height="48" rx="24" fill="#0f766e" opacity="0.2"/>
+  <text x="690" y="430" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#2dd4bf">CA Cities</text>
+
+  <!-- URL -->
+  <text x="80" y="560" font-family="Inter, Helvetica, Arial, sans-serif" font-size="22" font-weight="500" fill="#475569">civictools.app</text>
+</svg>
