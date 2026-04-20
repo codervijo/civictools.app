@@ -10,6 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
+    "test:seo": "SKIP_BUILD=1 vitest run src/test/seo.test.ts",
+    "test:seo:build": "vitest run src/test/seo.test.ts",
     "test:watch": "vitest"
   },
   "dependencies": {

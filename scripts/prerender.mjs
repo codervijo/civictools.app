@@ -60,14 +60,16 @@ function buildHeadTags(route, meta) {
   ].join("\n    ");
 }
 
-// Strip the static head tags Vite baked into index.html
+// Strip the static head tags Vite baked into index.html.
+// Use [^>]*> to consume the full tag — [^/]* stops at the first slash
+// inside URLs like https://... and leaves stray fragments in the output.
 function stripStaticHead(html) {
   return html
     .replace(/<title>[^<]*<\/title>/, "")
-    .replace(/<meta name="description"[^/]*/g, "")
-    .replace(/<meta property="og:[^/]*/g, "")
-    .replace(/<meta name="twitter:[^/]*/g, "")
-    .replace(/<link rel="canonical"[^/]*/g, "");
+    .replace(/<meta name="description"[^>]*>/g, "")
+    .replace(/<meta property="og:[^>]*>/g, "")
+    .replace(/<meta name="twitter:[^>]*>/g, "")
+    .replace(/<link rel="canonical"[^>]*>/g, "");
 }
 
 let count = 0;

@@ -8,6 +8,7 @@ export default defineConfig({
     setupFiles: [],
     include: ["src/test/**/*.test.ts", "src/test/**/*.test.tsx"],
     testTimeout: 60000,
+    hookTimeout: 300000,
   },
   resolve: {
     alias: {
